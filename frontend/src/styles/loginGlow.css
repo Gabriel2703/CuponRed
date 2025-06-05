@@ -1,0 +1,29 @@
+.box-glow {
+  position: relative;
+  z-index: 1;
+}
+.box-glow::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  border-radius: 20px;
+  filter: drop-shadow(0 15px 50px #000);
+  animation: rotating 4s linear infinite;
+  animation-delay: -1s;
+  background: linear-gradient(120deg, #0ff 0%, #f0f 100%);
+  opacity: 0.25;
+}
+.box-glow::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  z-index: -1;
+  background: #2d2d39;
+  border-radius: 15px;
+  border: 8px solid #25252b;
+}
+@keyframes rotating {
+  0% { filter: drop-shadow(0 15px 50px #000); }
+  100% { filter: drop-shadow(0 15px 50px #000); }
+} 

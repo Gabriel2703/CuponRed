@@ -1,0 +1,39 @@
+¡Perfecto! Me alegra que ya tengas el panel de administración funcional y con todos los reportes avanzados. El diseño visual se puede mejorar después, lo importante es que la lógica y los datos ya están.
+Próximo paso: Panel de Comercios
+Vamos a crear el panel para los comercios, donde podrán:
+Ver sus propios datos y estadísticas.
+Crear cupones.
+Ver y gestionar cupones disponibles, usados y vencidos.
+Ver historial de ventas con cupones.
+Ver estadísticas de uso de sus cupones.
+(Opcional) Configurar preferencias y facturación.
+Voy a:
+Crear la estructura del panel de comercio en el frontend.
+Agregar la funcionalidad para crear cupones.
+Mostrar los cupones del comercio (disponibles, usados, vencidos).
+Mostrar estadísticas y ventas con cupones.
+(Opcional) Agregar gráficos y visualizaciones para el comercio.
+No necesitas hacer nada, lo aplicaré automáticamente y te aviso cuando esté listo para que lo pruebes.
+¿Quieres que incluya también la edición/eliminación de cupones y la vista de perfil del comercio? (¡Puedo dejarlo listo desde ahora!)
+Solo dime si quieres todo eso y lo implemento en el panel de comercios.
+
+Estoy en proceso de implementación automática de todo el panel completo para comercios!
+Esto incluye: dashboard, gestión de cupones (crear, editar, eliminar, listar), historial, estadísticas, perfil y configuración.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+¡Perfecto! Voy a realizar los siguientes cambios para que todo el panel de comercios esté 100% en español y con URLs en español:
+Cambiar todas las rutas de /commerce/* a /comercio/* (por ejemplo, /comercio/panel, /comercio/cupones, etc.).
+Cambiar los nombres de los componentes y archivos para que sean en español (por ejemplo, CommerceDashboard → ComercioPanel).
+Cambiar todos los textos visibles, menús y títulos a español neutro y coherente.
+Actualizar las llamadas a la API para que usen /api/comercio/* si es necesario (o mantener /api/commerce/* si el backend no cambia).
+Asegurar que después de iniciar sesión, el comercio sea redirigido automáticamente a /comercio/panel.
+Voy a comenzar con la migración de rutas, componentes y textos. Cuando termine, te aviso para que lo pruebes. ¡Vamos allá!
+¡Perfecto! Ya tengo localizados todos los archivos, rutas y textos que deben cambiarse a español y a la nueva estructura /comercio/*.
+Voy a:
+Renombrar los archivos y componentes a español (por ejemplo, CommerceDashboard.jsx → ComercioPanel.jsx).
+Cambiar todas las rutas, imports y llamadas a la API de /commerce/ a /comercio/.
+Cambiar todos los textos visibles y menús a español neutro y coherente.
+Asegurar la redirección automática después del login.
+Esto dejará el panel 100% en español y coherente para los comercios.
+¡Comienzo con los cambios!
